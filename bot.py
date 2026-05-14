@@ -81,4 +81,4 @@ class ApprovalView(discord.ui.View):
     async def deny(self, interaction: discord.Interaction, button: discord.ui.Button):
         await interaction.response.edit_message(content="❌ Rechazado.", embed=None, view=None)
 
-bot.run("MTUwNDU1NzIwOTI4NjA4MjY0MA.GC-JYE.7n_V4YglplztG-GJQg0vlA2L066qr-Dv8OZ7i4")
+bot.run("")
